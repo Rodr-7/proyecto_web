@@ -1,104 +1,107 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+body { /* Lo que se establezca en cuerpo rige para todo lo que este incluido dentro de este,
+    de no modificarse especificamente*/
+    font-family: Arial, sans-serif; /* Fuente principal para el texto */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px 0;
+    width: 80%; /* Ancho del contenedor al 80% de la pantalla */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px 0; /* Espaciado superior e inferior */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 100px 0;
+    background-color: #333; /* Color de fondo gris oscuro */
+    color: #fff; /* Color de texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 100px 0; /* Espaciado superior e inferior de 100 pixeles */
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5em; /* Tamaño para el título principal. em es una unidad de medida relativa en CSS que representa el tamaño de la fuente del elemento actual.
+Por lo que 2em seria el doble del tamaño de fuente actual, y 0.5em es la mitad.
+ */
 }
 
 .btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    display: inline-block; /* Permite definir ancho y alto */
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar color */
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
 }
 
 section {
-    padding: 50px 0;
+    padding: 50px 0; /* Espaciado superior e inferior en las secciones */
 }
 
 h2 {
-    text-align: center;
+    text-align: center; /* Centra los títulos de segundo nivel */
 }
 
 .feature {
-    text-align: center;
-    margin-bottom: 30px;
+    text-align: center; /* Centra el contenido de las características */
+    margin-bottom: 30px; /* Espacio inferior entre características */
 }
 
 .feature h3 {
-    font-size: 1.5em;
+    font-size: 1.5em; /* Tamaño de fuente para subtítulos de características */
 }
 
 .testimonial {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 30px;
+    background-color: #f9f9f9; /* Fondo claro para testimonios */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 30px; /* Espacio inferior entre testimonios */
 }
 
 .testimonial p {
-    font-style: italic;
+    font-style: italic; /* Texto en cursiva para el testimonio */
 }
 
 .testimonial cite {
-    font-weight: bold;
+    font-weight: bold; /* Autor del testimonio en negrita */
 }
 
 form {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 20px; /* Espacio inferior entre campos */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
 }
 
 button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar color */
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centra el texto */
+    padding: 20px 0; /* Espaciado superior e inferior */
 }
